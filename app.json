@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Handout",
+    "slug": "Handout",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./src/assests/images/Handout.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.grootroot.Handout",
+      "config": {
+        "googleMaps": { "apiKey": "AIzaSyByuxnGQ5a5pD8VJJBXK23RggGzvD5NwDE" }   
+     }
+    }
+  }
+}
